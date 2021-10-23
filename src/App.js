@@ -438,7 +438,18 @@ function App() {
 
 
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+              
+                   <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--primary-text)",
+                      }}
+                    >
+                      Please make sure you are connected to the right network (
+                      {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+                      Once you make the purchase, you cannot undo this action.
+                    </s.TextDescription>
+          <s.Container flex={2} jc={"right"} ai={"right"}>
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
@@ -448,12 +459,22 @@ function App() {
 
 
             <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+          <s.Container flex={2} jc={"left"} ai={"left"}>
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
+               <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--primary-text)",
+                      }}
+                    >
+                      Please make sure you are connected to the right network (
+                      {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+                      Once you make the purchase, you cannot undo this action.
+                    </s.TextDescription>
           </s.Container>
 
 
