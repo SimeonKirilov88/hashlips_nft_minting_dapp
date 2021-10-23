@@ -116,7 +116,7 @@ function App() {
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
     MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
+    MARKETPLACE_LINK: "https://opensea.io/test",
     SHOW_BACKGROUND: false,
   });
 
